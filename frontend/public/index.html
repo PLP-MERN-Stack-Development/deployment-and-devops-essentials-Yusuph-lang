@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#b22222" />
+    <meta
+      name="description"
+      content="SDG 1: No Poverty - A web application promoting awareness, tracking progress, and encouraging innovation to end poverty in all its forms everywhere."
+    />
+
+    <title>SDG 1 – No Poverty | Empowering Change</title>
+
+    <!-- Favicon & Manifest -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Styles -->
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        background: #fff5f5;
+        color: #333;
+      }
+
+      header {
+        background: #b22222;
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+      }
+
+      header p {
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+      }
+
+      section {
+        padding: 2rem 1.5rem;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .goal {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+      }
+
+      .goal img {
+        width: 180px;
+        border-radius: 12px;
+      }
+
+      .goal-text {
+        flex: 1;
+        min-width: 280px;
+      }
+
+      h2 {
+        color: #b22222;
+        margin-bottom: 1rem;
+      }
+
+      footer {
+        background: #222;
+        color: #eee;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: #ffcccb;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Static Intro Section (before React mounts) -->
+    <header>
+      <h1>SDG 1 – No Poverty</h1>
+      <p>End poverty in all its forms everywhere</p>
+    </header>
+
+    <section>
+      <div class="goal">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Sustainable_Development_Goal_01NoPoverty.svg"
+          alt="SDG 1 No Poverty Logo"
+        />
+        <div class="goal-text">
+          <h2>About This Goal</h2>
+          <p>
+            Sustainable Development Goal 1 (SDG 1) aims to eradicate extreme
+            poverty for all people everywhere by 2030. Poverty is not only about
+            lack of income—it includes hunger, limited access to healthcare,
+            education, and opportunities for a better life.
+          </p>
+          <p>
+            This project is a <strong>MERN-powered web app</strong> that helps
+            communities, organizations, and individuals track local initiatives,
+            share progress, and identify areas most in need of intervention.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Facts</h2>
+      <ul>
+        <li>
+          Over <strong>700 million</strong> people still live in extreme
+          poverty.
+        </li>
+        <li>
+          Poverty affects children disproportionately — one in five live in
+          extreme poverty.
+        </li>
+        <li>
+          Access to education, clean water, and social protection can lift
+          millions out of poverty.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Our App’s Mission</h2>
+      <p>
+        The <strong>SDG 1 Bug Tracker</strong> empowers local initiatives by
+        helping developers, NGOs, and social innovators track issues in
+        anti-poverty projects. It supports transparency, accountability, and
+        collaboration toward ending poverty globally.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Built with ❤️ by the SDG 1 Development Team |
+        <a
+          href="https://sdgs.un.org/goals/goal1"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Learn more about SDG 1</a
+        >
+      </p>
+    </footer>
+
+    <div id="root"></div>
+  </body>
+</html>
+
